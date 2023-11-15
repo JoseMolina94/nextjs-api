@@ -1,4 +1,4 @@
-import singersList from "./../database.json"
+import singersList from "./../database.js"
 
 export default async function getSinger(req, res) {
   const { id } = req.query

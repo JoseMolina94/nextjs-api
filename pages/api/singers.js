@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import singersList from "./database.json"
+import singersList from "./database.js"
 
 export default async function singers(req, res) {
   res.setHeader('Access-Control-Allow-Credentials', true);
