@@ -1,7 +1,7 @@
 import singersList from "./../database.js"
 import { uuid } from 'uuidv4';
 
-export default async function addSinger(req, res) {
+export default async function createOrUpdateSinger(req, res) {
   if (req.body.id) {
     return await updateSinger(req, res)
   } else {
